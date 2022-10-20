@@ -1,0 +1,17 @@
+/* Selector universal 
+   El tamaño del padding y border, se lo resta al width
+
+*/
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+main{
+  width: 100%;
+  height: 500px;
+  border: 20px solid gray;
+  padding: 20px 35px;
+}

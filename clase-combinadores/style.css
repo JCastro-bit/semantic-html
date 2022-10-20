@@ -1,0 +1,21 @@
+/* h2 + p {
+  color: red;
+} */
+
+/* General Sibling */
+
+/* h2 ~ p{
+  color: red;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+} */
+
+/* Combinadores: Hijo*/
+div > p {
+  color: red;
+}
+
+/* Combinadores: Descendiente */
+.clase p{
+  color: aliceblue;
+}
